@@ -1,0 +1,157 @@
+State,Sex,LE,SE,Quartile
+Alabama,Total,73.2,0.067,71.9 - 75.3
+Alaska,Total,76.6,0.176,75.4 - 76.8
+Arizona,Total,76.3,0.055,75.4 - 76.8
+Arkansas,Total,73.8,0.086,71.9 - 75.3
+California,Total,79,0.022,78.1 - 80.7
+Colorado,Total,78.3,0.058,78.1 - 80.7
+Connecticut,Total,78.4,0.073,78.1 - 80.7
+Delaware,Total,76.7,0.147,75.4 - 76.8
+District of Columbia,Total,75.3,0.179,71.9 - 75.3
+Florida,Total,77.5,0.032,76.9 - 78.0
+Georgia,Total,75.6,0.044,75.4 - 76.8
+Hawaii,Total,80.7,0.119,78.1 - 80.7
+Idaho,Total,78.4,0.102,78.1 - 80.7
+Illinois,Total,76.8,0.04,75.4 - 76.8
+Indiana,Total,75,0.056,71.9 - 75.3
+Iowa,Total,77.5,0.077,76.9 - 78.0
+Kansas,Total,76.4,0.084,75.4 - 76.8
+Kentucky,Total,73.5,0.071,71.9 - 75.3
+Louisiana,Total,73.1,0.07,71.9 - 75.3
+Maine,Total,77.8,0.127,76.9 - 78.0
+Maryland,Total,76.8,0.059,75.4 - 76.8
+Massachusetts,Total,79,0.05,78.1 - 80.7
+Michigan,Total,76,0.046,75.4 - 76.8
+Minnesota,Total,79.1,0.056,78.1 - 80.7
+Mississippi,Total,71.9,0.089,71.9 - 75.3
+Missouri,Total,75.1,0.059,71.9 - 75.3
+Montana,Total,76.8,0.142,75.4 - 76.8
+Nebraska,Total,77.7,0.099,76.9 - 78.0
+Nevada,Total,76.3,0.08,75.4 - 76.8
+New Hampshire,Total,79,0.117,78.1 - 80.7
+New Jersey,Total,77.5,0.045,76.9 - 78.0
+New Mexico,Total,74.5,0.109,71.9 - 75.3
+New York,Total,77.7,0.031,76.9 - 78.0
+North Carolina,Total,76.1,0.045,75.4 - 76.8
+North Dakota,Total,76.9,0.164,76.9 - 78.0
+Ohio,Total,75.3,0.043,71.9 - 75.3
+Oklahoma,Total,74.1,0.072,71.9 - 75.3
+Oregon,Total,78.8,0.067,78.1 - 80.7
+Pennsylvania,Total,76.8,0.04,75.4 - 76.8
+Rhode Island,Total,78.2,0.13,78.1 - 80.7
+South Carolina,Total,74.8,0.066,71.9 - 75.3
+South Dakota,Total,76.7,0.156,75.4 - 76.8
+Tennessee,Total,73.8,0.057,71.9 - 75.3
+Texas,Total,76.5,0.026,75.4 - 76.8
+United States,Total,77,,*
+Utah,Total,78.6,0.078,78.1 - 80.7
+Vermont,Total,78.8,0.178,78.1 - 80.7
+Virginia,Total,77.6,0.048,76.9 - 78.0
+Washington,Total,79.2,0.049,78.1 - 80.7
+West Virginia,Total,72.8,0.118,71.9 - 75.3
+Wisconsin,Total,77.7,0.058,76.9 - 78.0
+Wyoming,Total,76.3,0.191,75.4 - 76.8
+Alabama,Male,70.1,0.099,68.6 - 72.4
+Alaska,Male,74.3,0.249,74.1 - 75.4
+Arizona,Male,73.4,0.081,72.5 - 74.0
+Arkansas,Male,71.1,0.125,68.6 - 72.4
+California,Male,76.2,0.032,75.5 - 77.6
+Colorado,Male,75.8,0.085,75.5 - 77.6
+Connecticut,Male,75.6,0.109,75.5 - 77.6
+Delaware,Male,73.9,0.219,72.5 - 74.0
+District of Columbia,Male,71.7,0.266,68.6 - 72.4
+Florida,Male,74.6,0.047,74.1 - 75.4
+Georgia,Male,72.8,0.064,72.5 - 74.0
+Hawaii,Male,77.6,0.17,75.5 - 77.6
+Idaho,Male,76.1,0.15,75.5 - 77.6
+Illinois,Male,73.8,0.059,72.5 - 74.0
+Indiana,Male,72.3,0.082,68.6 - 72.4
+Iowa,Male,74.9,0.112,74.1 - 75.4
+Kansas,Male,73.8,0.122,72.5 - 74.0
+Kentucky,Male,70.6,0.102,68.6 - 72.4
+Louisiana,Male,69.9,0.102,68.6 - 72.4
+Maine,Male,74.9,0.189,74.1 - 75.4
+Maryland,Male,73.8,0.087,72.5 - 74.0
+Massachusetts,Male,76.4,0.074,75.5 - 77.6
+Michigan,Male,73.4,0.067,72.5 - 74.0
+Minnesota,Male,76.8,0.083,75.5 - 77.6
+Mississippi,Male,68.6,0.13,68.6 - 72.4
+Missouri,Male,72.1,0.087,68.6 - 72.4
+Montana,Male,74.2,0.203,74.1 - 75.4
+Nebraska,Male,75.2,0.145,74.1 - 75.4
+Nevada,Male,73.5,0.117,72.5 - 74.0
+New Hampshire,Male,76.5,0.173,75.5 - 77.6
+New Jersey,Male,74.6,0.066,74.1 - 75.4
+New Mexico,Male,71.3,0.158,68.6 - 72.4
+New York,Male,74.8,0.045,74.1 - 75.4
+North Carolina,Male,73.3,0.067,72.5 - 74.0
+North Dakota,Male,74.2,0.236,74.1 - 75.4
+Ohio,Male,72.5,0.062,72.5 - 74.0
+Oklahoma,Male,71.5,0.104,68.6 - 72.4
+Oregon,Male,76.3,0.099,75.5 - 77.6
+Pennsylvania,Male,74,0.059,72.5 - 74.0
+Rhode Island,Male,75.5,0.192,75.5 - 77.6
+South Carolina,Male,71.7,0.098,68.6 - 72.4
+South Dakota,Male,74.2,0.221,74.1 - 75.4
+Tennessee,Male,70.7,0.083,68.6 - 72.4
+Texas,Male,73.7,0.038,72.5 - 74.0
+United States,Male,74.2,,*
+Utah,Male,76.7,0.113,75.5 - 77.6
+Vermont,Male,76.1,0.27,75.5 - 77.6
+Virginia,Male,75.1,0.07,74.1 - 75.4
+Washington,Male,76.9,0.072,75.5 - 77.6
+West Virginia,Male,69.8,0.17,68.6 - 72.4
+Wisconsin,Male,75.2,0.085,74.1 - 75.4
+Wyoming,Male,74,0.275,72.5 - 74.0
+Alabama,Female,76.4,0.088,75.2 - 78.2
+Alaska,Female,79.2,0.242,78.3 - 79.6
+Arizona,Female,79.5,0.072,78.3 - 79.6
+Arkansas,Female,76.6,0.116,75.2 - 78.2
+California,Female,82,0.029,80.0 - 83.8
+Colorado,Female,80.9,0.077,80.0 - 83.8
+Connecticut,Female,81.3,0.093,80.0 - 83.8
+Delaware,Female,79.5,0.191,78.3 - 79.6
+District of Columbia,Female,78.7,0.233,78.3 - 79.6
+Florida,Female,80.5,0.042,79.7 - 80.7
+Georgia,Female,78.3,0.058,78.3 - 79.6
+Hawaii,Female,83.8,0.159,80.0 - 83.8
+Idaho,Female,80.8,0.136,80.0 - 83.8
+Illinois,Female,79.8,0.052,79.7 - 80.7
+Indiana,Female,77.9,0.075,75.2 - 78.2
+Iowa,Female,80.1,0.102,79.7 - 80.7
+Kansas,Female,79.2,0.112,78.3 - 79.6
+Kentucky,Female,76.5,0.094,75.2 - 78.2
+Louisiana,Female,76.4,0.093,75.2 - 78.2
+Maine,Female,80.7,0.162,79.7 - 80.7
+Maryland,Female,79.7,0.076,79.7 - 80.7
+Massachusetts,Female,81.5,0.065,80.0 - 83.8
+Michigan,Female,78.8,0.062,78.3 - 79.6
+Minnesota,Female,81.4,0.074,80.0 - 83.8
+Mississippi,Female,75.2,0.118,75.2 - 78.2
+Missouri,Female,78.1,0.078,75.2 - 78.2
+Montana,Female,79.6,0.193,78.3 - 79.6
+Nebraska,Female,80.3,0.131,79.7 - 80.7
+Nevada,Female,79.2,0.106,78.3 - 79.6
+New Hampshire,Female,81.5,0.153,80.0 - 83.8
+New Jersey,Female,80.5,0.059,79.7 - 80.7
+New Mexico,Female,77.8,0.145,75.2 - 78.2
+New York,Female,80.7,0.04,79.7 - 80.7
+North Carolina,Female,79,0.059,78.3 - 79.6
+North Dakota,Female,80,0.22,79.7 - 80.7
+Ohio,Female,78.1,0.057,75.2 - 78.2
+Oklahoma,Female,76.9,0.097,75.2 - 78.2
+Oregon,Female,81.3,0.088,80.0 - 83.8
+Pennsylvania,Female,79.6,0.052,78.3 - 79.6
+Rhode Island,Female,80.9,0.17,80.0 - 83.8
+South Carolina,Female,78,0.087,75.2 - 78.2
+South Dakota,Female,79.4,0.217,78.3 - 79.6
+Tennessee,Female,77,0.074,75.2 - 78.2
+Texas,Female,79.3,0.035,78.3 - 79.6
+United States,Female,79.9,,*
+Utah,Female,80.6,0.105,79.7 - 80.7
+Vermont,Female,81.4,0.227,80.0 - 83.8
+Virginia,Female,80.1,0.064,79.7 - 80.7
+Washington,Female,81.6,0.065,80.0 - 83.8
+West Virginia,Female,76.1,0.158,75.2 - 78.2
+Wisconsin,Female,80.3,0.078,79.7 - 80.7
+Wyoming,Female,78.9,0.259,78.3 - 79.6
