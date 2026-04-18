@@ -1,0 +1,58 @@
+iso3,country_name,region,temp_anomaly_c,fire_weather_days_per_yr,burned_mha_2023,risk_level,iso_numeric
+USA,United States,North America,1.28,62,4.2,High,840
+CAN,Canada,North America,2.31,89,18.4,Critical,124
+MEX,Mexico,North America,1.12,46,1.4,Moderate,484
+BRA,Brazil,South America,0.94,48,11.2,High,76
+ARG,Argentina,South America,0.98,44,2.8,Moderate,32
+CHL,Chile,South America,0.88,41,0.94,Moderate,152
+COL,Colombia,South America,0.71,38,1.1,Moderate,170
+VEN,Venezuela,South America,0.79,40,1.8,Moderate,862
+BOL,Bolivia,South America,0.85,47,3.2,High,68
+PRY,Paraguay,South America,0.92,46,1.9,Moderate,600
+PER,Peru,South America,0.76,36,0.9,Moderate,604
+GRC,Greece,Europe,1.62,61,0.93,High,300
+ESP,Spain,Europe,1.44,55,0.31,Moderate,724
+PRT,Portugal,Europe,1.38,58,0.27,Moderate,620
+ITA,Italy,Europe,1.54,39,0.15,Moderate,380
+FRA,France,Europe,1.61,34,0.08,Lower,250
+DEU,Germany,Europe,1.72,28,0.03,Lower,276
+SWE,Sweden,Europe,2.04,38,0.12,Moderate,752
+NOR,Norway,Europe,2.28,32,0.03,Lower,578
+FIN,Finland,Europe,2.21,35,0.04,Lower,246
+GBR,United Kingdom,Europe,1.38,22,0.01,Lower,826
+ROU,Romania,Europe,1.41,31,0.04,Lower,642
+UKR,Ukraine,Europe,1.55,33,0.11,Moderate,804
+RUS,Russia,Russia & Central Asia,2.12,71,29.8,Critical,643
+KAZ,Kazakhstan,Russia & Central Asia,2.01,44,4.1,High,398
+MNG,Mongolia,Russia & Central Asia,2.44,48,2.2,High,496
+TUR,Turkey,Middle East,1.29,52,0.22,Moderate,792
+IRN,Iran,Middle East,1.51,43,0.18,Moderate,364
+SAU,Saudi Arabia,Middle East,1.82,28,0.04,Lower,682
+IRQ,Iraq,Middle East,1.68,31,0.06,Lower,368
+CHN,China,Asia,1.55,41,1.8,Moderate,156
+IND,India,Asia,0.89,39,2.1,Moderate,356
+IDN,Indonesia,Asia,0.72,44,3.4,Moderate,360
+MMR,Myanmar,Asia,0.81,51,2.8,High,104
+THA,Thailand,Asia,0.74,42,1.1,Moderate,764
+VNM,Vietnam,Asia,0.78,40,0.9,Moderate,704
+KHM,Cambodia,Asia,0.76,47,1.4,Moderate,116
+PAK,Pakistan,Asia,1.44,35,0.21,Moderate,586
+JPN,Japan,Asia,1.41,19,0.02,Lower,392
+KOR,South Korea,Asia,1.52,21,0.01,Lower,410
+COD,DR Congo,Africa,0.81,52,22.4,High,180
+AGO,Angola,Africa,0.91,55,14.2,High,24
+ZMB,Zambia,Africa,0.88,53,8.9,High,894
+MOZ,Mozambique,Africa,0.86,50,7.3,High,508
+TZA,Tanzania,Africa,0.84,49,6.8,High,834
+ZWE,Zimbabwe,Africa,0.96,54,5.1,High,716
+ZAF,South Africa,Africa,1.24,58,3.8,High,710
+NGA,Nigeria,Africa,0.88,47,4.2,High,566
+ETH,Ethiopia,Africa,0.94,45,5.1,High,231
+KEN,Kenya,Africa,0.89,44,2.4,Moderate,404
+GHA,Ghana,Africa,0.85,48,1.8,Moderate,288
+CMR,Cameroon,Africa,0.82,50,3.1,High,120
+TCD,Chad,Africa,1.12,42,4.4,High,148
+SDN,Sudan,Africa,1.08,39,3.6,High,729
+EGY,Egypt,Africa,1.31,18,0.02,Lower,818
+AUS,Australia,Oceania,1.47,78,8.1,High,36
+NZL,New Zealand,Oceania,0.92,32,0.08,Lower,554
