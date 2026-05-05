@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burning Earth — Global Wildfire Crisis</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Literata:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+</head>
+<body>
+
+  <!-- SECTION 1 — MAP HERO -->
+  <section id="hero">
+    <svg id="map-svg" aria-label="World map showing wildfire and climate data by country"></svg>
+
+    <!-- Masthead -->
+    <div id="masthead">
+      <h1 id="hero-title">
+        <span class="title-line1">Burning</span>
+        <span class="title-line2">Earth</span>
+      </h1>
+      <p class="hero-deck">
+        Wildfires scorched <strong>423 million hectares</strong> in 2023,
+        the most catastrophic year on record. Hover any country to see its fire data.
+        Scroll down for the full story.
+      </p>
+    </div>
+
+    <!-- ── ATTRIBUTE SWITCHER (NEW: Coordinated Reexpress) ── -->
+    <div id="attr-switcher" aria-label="Switch map attribute">
+      <div class="attr-label">Map shows:</div>
+      <div class="attr-buttons">
+        <button class="attr-btn active" data-attr="risk"       title="Wildfire risk level">Wildfire Risk</button>
+        <button class="attr-btn"        data-attr="tempAnomaly" title="Temperature anomaly °C">Temperature</button>
+        <button class="attr-btn"        data-attr="burnedMha"   title="Hectares burned 2023">Burned Area</button>
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div id="map-legend" aria-label="Risk level legend">
+      <div class="legend-title" id="legend-title">Wildfire Risk Level</div>
+      <div class="legend-items" id="legend-items"></div>
+    </div>
+
+    <!-- Stats strip -->
+    <div id="stats-strip" role="complementary" aria-label="Key statistics">
+      <div class="s-stat"><span class="s-num">423M</span><span class="s-label">Hectares burned in 2023</span></div>
+      <div class="s-stat"><span class="s-num">+1.45°C</span><span class="s-label">Global temp rise since 1880</span></div>
+      <div class="s-stat"><span class="s-num">7,800</span><span class="s-label">Major fires per year globally</span></div>
+      <div class="s-stat"><span class="s-num">70%</span><span class="s-label">Increase in fire-weather days</span></div>
+      <div class="s-stat"><span class="s-num">$400B</span><span class="s-label">Annual economic damage</span></div>
+    </div>
+
+    <!-- Scroll down button (NEW) -->
+    <button id="scroll-down-btn" aria-label="Scroll to story">
+      <span class="scroll-label">Explore the story</span>
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+        <circle cx="11" cy="11" r="10" stroke="currentColor" stroke-width="1.2" opacity="0.5"/>
+        <path d="M7 9.5l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </section>
+
+  <!-- SECTION 2 — CONTINENT FIRE BARS -->
+  <section id="story">
+
+    <div class="section-rule">
+      <span class="rule-tag">The Scale</span>
+      <hr class="rule-line">
+      <span class="rule-tag">Hectares Burned by Continent · 2023</span>
+    </div>
+
+    <div id="fire-section" class="reveal two-col">
+      <div class="prose-col">
+        <h2>Every Continent Is on Fire</h2>
+        <p>
+          2023 was the most catastrophic wildfire year on record. Canada alone
+          lost 18 million hectares — more than any single country in recorded history.
+          The Amazon suffered its worst drought in 50 years. Southern Europe saw villages
+          evacuated as fires raged for weeks across Greece, Portugal, and Spain.
+        </p>
+        <blockquote>
+          "We are not in a new normal.<br>
+          We are in a new abnormal that will<br>
+          keep getting worse."
+        </blockquote>
+        <p>
+          The direct cause is climate change: higher temperatures dry out vegetation faster,
+          fire seasons last longer, and when fires start they burn hotter and spread faster
+          than firefighters can contain. Sub-Saharan Africa, often overlooked in Western
+          media coverage, accounts for the largest share of global burned area by far.
+        </p>
+        <p>
+          <strong>Click any bar</strong> to highlight that continent's countries on the map above
+          and in the scatter plot below.
+        </p>
+      </div>
+
+      <div class="chart-col">
+        <h3 class="chart-label">Million Hectares Burned · 2023</h3>
+        <div id="flame-bars"></div>
+      </div>
+    </div>
+
+    <!-- SECTION 3 — TEMPERATURE SPIRAL -->
+    <div class="section-rule">
+      <span class="rule-tag">The Cause</span>
+      <hr class="rule-line">
+      <span class="rule-tag">Global Temperature Anomaly 1880 – 2023</span>
+    </div>
+
+    <div id="spiral-section" class="reveal two-col reverse">
+      <div id="spiral-wrap" role="img" aria-label="Temperature spiral chart 1880 to 2023"></div>
+      <div class="prose-col">
+        <h2>The Temperature Spiral</h2>
+        <p>
+          Each arc of the spiral represents one year. The further a year's arc sits
+          from the center, the warmer that year was compared to the pre-industrial baseline.
+        </p>
+        <p>
+          The innermost arcs (the late 1800s) barely deviate from the center.
+          Through the mid-20th century, a slow creep outward begins.
+          Then, after 1980, the spiral accelerates dramatically.
+        </p>
+        <p class="callout-text">
+          2023 broke through the 1.5°C threshold that scientists warned
+          must not be crossed, making it the hottest year in 125,000 years
+          of Earth history.
+        </p>
+      </div>
+    </div>
+
+    <!-- SECTION 4 — SCATTER PLOT -->
+    <div class="section-rule">
+      <span class="rule-tag">The Connection</span>
+      <hr class="rule-line">
+      <span class="rule-tag">Temperature Anomaly vs. Fire-Weather Days · by Country</span>
+    </div>
+
+    <div id="scatter-section" class="reveal">
+      <div class="scatter-header">
+        <h2>Hotter Countries Burn Longer</h2>
+        <p class="scatter-intro">
+          Every dot is a country. The warmer a nation has become since 1880, the more
+          fire-weather days it experiences each year. Dot size shows total hectares burned
+          in 2023. <strong>Hover a dot</strong> to highlight that country on the world map above.
+          The trend line reveals an almost linear relationship — and its implications are alarming.
+        </p>
+      </div>
+      <div id="scatter-wrap" role="img" aria-label="Scatter plot of temperature anomaly versus fire weather days"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-cols">
+        <div>
+          <strong>Data sources</strong><br>
+          Global Fire Emissions Database (GFED) · NASA FIRMS Active Fire Data ·
+          IPCC Sixth Assessment Report (AR6) · Copernicus Climate Change Service (C3S) ·
+          ourworldindata.org
+        </div>
+        <div>
+          <strong>Visualization</strong><br>
+          D3.js v7 <br>
+          Author: Akhila Vattaluri Gangireddigari
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- Tooltips -->
+  <div id="sc-tooltip"  role="tooltip" aria-live="polite">
+    <div class="tt-name" id="sc-tt-name">—</div>
+    <div class="tt-grid" id="sc-tt-grid"></div>
+  </div>
+  <div id="map-tooltip" role="tooltip" aria-live="polite">
+    <div class="tt-flag" id="tt-flag"></div>
+    <div class="tt-name" id="tt-name">—</div>
+    <div class="tt-grid" id="tt-grid"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
